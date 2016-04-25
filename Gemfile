@@ -43,3 +43,17 @@ group :development do
   gem 'spring'
 end
 
+# ** gemas guia de inicio **
+gem 'mongoid', '~> 5.1.0'
+gem 'bson_ext'
+gem 'wirb'
+gem 'hirb'  
+gem 'awesome_print'
+gem 'quiet_assets'
+gem 'haml-rails'
+gem 'bootstrap-sass', '~> 3.3.6'
+group :development do
+  gem 'pry'
+  gem 'pry-byebug'
+end
+
